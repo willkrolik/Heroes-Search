@@ -1,231 +1,4 @@
-export const level2 = [
-  {
-    "Name": "Blind ",
-    "Level": 2,
-    "Class": "Fire Magic",
-    "Effect": "Prevents any action from being taken by target enemy creature.",
-    "Basic Effect": "Target, enemy troop is frozen until attacked, dispelled or effect wears off. Deactivating attack is retaliated at 50% of base attack rating.",
-    "Advanced Effect": "Same as basic effect, except that deactivating attack is retaliated at 25% of base attack rating.",
-    "Expert Effect": "Same as basic effect, except that deactivating attack is not retaliated.",
-    "Cost": [
-      10,
-      8
-    ],
-    "Duration": "1 rnd/sp",
-    "Probability of occurrence (%):": "[Castle:25,Rampart:35,Tower:[18,13],Inferno:47,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:35, Conflux:37]"
-  },
-  {
-    "Name": "Death Ripple ",
-    "Level": 2,
-    "Class": "Earth Magic",
-    "Effect": "Inflicts magic damage on all livingcreatures.",
-    "Basic Effect": "All creatures (except undead) troops take (10 + (power x 5)) damage.",
-    "Advanced Effect": "All creatures (except undead) troops take (20 + (power x 5)) damage.",
-    "Expert Effect": "All creatures (except undead) troops take (30 + (power x 5)) damage.",
-    "Cost": [
-      10,
-      8
-    ],
-    "Duration": "instant",
-    "Probability of occurrence (%):": "[Castle:0,Rampart:0,Tower:[0,0],Inferno:0,Necropolis:95, Dungeon:0, Stronghold:0, Fortress:0, Conflux:0]"
-  },
-  {
-    "Name": "Disguise ",
-    "Level": 2,
-    "Class": "Air Magic",
-    "Effect": "Modifies the army composition scouting report visible to enemies.",
-    "Basic Effect": "All of the hero's creature troops are displayed as if they were composed of the most powerful creatures in the hero's army. Troop population numbers are represented normally.",
-    "Advanced Effect": "Same as basic effect except troop population quantities are represented as 0.",
-    "Expert Effect": "Same as advanced effect except all troops are represented as if populated by the most powerful creature in hero's longest owned town.",
-    "Cost": [
-      4,
-      2
-    ],
-    "Duration": "1 day",
-    "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13],Inferno:18,Necropolis:13, Dungeon:13, Stronghold:13, Fortress:0, Conflux:11]"
-  },
-  {
-    "Name": "Disrupting Ray ",
-    "Level": 2,
-    "Class": "Air Magic",
-    "Effect": "Reduces defense rating of a single enemy. May be used repeatedly on the same target.",
-    "Basic Effect": "Reduces target, enemy troop's defense rating by 3.",
-    "Advanced Effect": "Reduces target, enemy troop's defense rating by 4.",
-    "Expert Effect": "Reduces target, enemy troop's defense rating by 5",
-    "Cost": [
-      10,
-      8
-    ],
-    "Duration": "until end of combat",
-    "Probability of occurrence (%):": "[Castle:35,Rampart:25,Tower:[46,35],Inferno:47,Necropolis:24, Dungeon:35, Stronghold:35, Fortress:35, Conflux:37]"
-  },
-  {
-    "Name": "Fire Wall ",
-    "Level": 2,
-    "Class": "Fire Magic",
-    "Effect": "Creates wall of fire at target location that inflicts magic damage on creatures that pass through.",
-    "Basic Effect": "Two-hex Wall. Damage is (10+ Spell Power*10)",
-    "Advanced Effect": "Three-hex Wall. Damage is (20+ Spell Power*10) Cost reduced by 2",
-    "Expert Effect": "Three-hex Wall. Damage is (50+ Spell Power*10)",
-    "Cost": [
-      8,
-      6
-    ],
-    "Duration": "2 rounds",
-    "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[33,25],Inferno:47,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:25, Conflux:37]"
-  },
-  {
-    "Name": "Fortune ",
-    "Level": 2,
-    "Class": "Air Magic",
-    "Effect": "Increases luck. Basic: Single ally. Expert: All allies.",
-    "Basic Effect": "Increases luck of target, allied troop by 1.",
-    "Advanced Effect": "Increases luck of target, allied troop by 2.",
-    "Expert Effect": "Increases luck of all allied troops by 2.",
-    "Cost": [
-      7,
-      5
-    ],
-    "Duration": "1 rnd/sp",
-    "Probability of occurrence (%):": "[Castle:25,Rampart:35,Tower:[33,25],Inferno:18,Necropolis:13, Dungeon:13, Stronghold:25, Fortress:25, Conflux:11]"
-  },
-  {
-    "Name": "Ice Bolt ",
-    "Level": 2,
-    "Class": "Water Magic",
-    "Effect": "Inflicts magic damage on a single enemy.",
-    "Basic Effect": "Target enemy troop receives (10 + (power x 20)) damage.",
-    "Advanced Effect": "Target enemy troop receives (20 + (power x 20)) damage.",
-    "Expert Effect": "Target enemy troop receives (50 + (power x 20)) damage.",
-    "Cost": [
-      8,
-      6
-    ],
-    "Duration": "instant",
-    "Probability of occurrence (%):": "[Castle:95,Rampart:95,Tower:[46,35],Inferno:0,Necropolis:35, Dungeon:35, Stronghold:25, Fortress:96, Conflux:77]"
-  },
-  {
-    "Name": "Lightning Bolt ",
-    "Level": 2,
-    "Class": "Air Magic",
-    "Effect": "Inflicts magic damage on a single enemy.",
-    "Basic Effect": "Target, enemy creature receives (10 + (power x 25)) damage.",
-    "Advanced Effect": "Target, enemy creature receives (20 + (power x 25)) damage.",
-    "Expert Effect": "Target, enemy creature receives (50 + (power x 25)) damage.",
-    "Cost": [
-      10,
-      8
-    ],
-    "Duration": "instant",
-    "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[98,96],Inferno:65,Necropolis:35, Dungeon:95, Stronghold:95, Fortress:25, Conflux:77]"
-  },
-  {
-    "Name": "Precision ",
-    "Level": 2,
-    "Class": "Air Magic",
-    "Effect": "Increases ranged attack rating. Basic: Single ally. Expert: All allies.",
-    "Basic Effect": "Target, allied troop with ranged attack has its attack rating increased by 3 when making ranged attacks.",
-    "Advanced Effect": "Target, allied troop with ranged attack has its attack rating increased by 6 when making ranged attacks.",
-    "Expert Effect": "All allied troop with ranged attack has its attack rating increased by 6 when making ranged attacks.",
-    "Cost": [
-      8,
-      6
-    ],
-    "Duration": "1 rnd/sp",
-    "Probability of occurrence (%):": "[Castle:35,Rampart:35,Tower:[33,25],Inferno:34,Necropolis:13, Dungeon:35, Stronghold:25, Fortress:25, Conflux:11]"
-  },
-  {
-    "Name": "Protection from Air",
-    "Level": 2,
-    "Class": "Air Magic",
-    "Effect": "Reduces damage taken from air spells. Basic: Single ally. Expert: All allies.",
-    "Basic Effect": "Damage from air magic spells is reduced by 30% for target, allied troop.",
-    "Advanced Effect": "Damage from air magic spells is reduced by 50% for target, allied troop.",
-    "Expert Effect": "Damage from air magic spells is reduced by 50% for all allied troops.",
-    "Cost": [
-      7,
-      5
-    ],
-    "Duration": "1 rnd/sp",
-    "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13],Inferno:18,Necropolis:13, Dungeon:13, Stronghold:13, Fortress:13, Conflux:11]"
-  },
-  {
-    "Name": "Quicksand ",
-    "Level": 2,
-    "Class": "Earth Magic",
-    "Effect": "Places quicksand at random locations on the battlefield. Only visible to caster and creatures native to the terrain. Creatures attempting to pass through quicksand become stuck and make the location of the quicksand visible.",
-    "Basic Effect": "Quicksand pits are placed in 4 random hexes.",
-    "Advanced Effect": "Quicksand pits are placed in 6 random hexes.",
-    "Expert Effect": "Quicksand pits are placed in 8 random hexes.",
-    "Cost": [
-      8,
-      6
-    ],
-    "Duration": "until end of combat",
-    "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[46,35],Inferno:18,Necropolis:24, Dungeon:25, Stronghold:35, Fortress:35, Conflux:20]"
-  },
-  {
-    "Name": "Remove Obstacle ",
-    "Level": 2,
-    "Class": "Water Magic",
-    "Effect": "Removes obstacles from the battlefield. Basic: Only trees, rocks and other natural obstacles may be removed. Advanced: May also remove fire walls.",
-    "Basic Effect": "Removes one, non-magic obstacle from the battlefield. Integrated obstacles, such as cliffs are not affected.",
-    "Advanced Effect": "Same as basic effect, except fire walls may also be removed.",
-    "Expert Effect": "Same as advanced effect, except all, non-integrated obstacles can be removed.",
-    "Cost": [
-      7,
-      5
-    ],
-    "Duration": "instant",
-    "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[46,35],Inferno:18,Necropolis:24, Dungeon:25, Stronghold:,25 Fortress:25, Conflux:20]"
-  },
-  {
-    "Name": "Scuttle Boat ",
-    "Level": 2,
-    "Class": "Water Magic",
-    "Effect": "Destroys nearby unoccupied boat.",
-    "Basic Effect": "Spell has 50% chance of destroying a boat, unless occupied.",
-    "Advanced Effect": "Spell has 75% chance of destroying a boat, unless occupied.",
-    "Expert Effect": "Spell destroys a boat, unless occupied.",
-    "Cost": [
-      8,
-      6
-    ],
-    "Duration": "instant",
-    "Probability of occurrence (%):": "[Castle:35,Rampart:25,Tower:[33,25],Inferno:18,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:25, Conflux:20]"
-  },
-  {
-    "Name": "Visions ",
-    "Level": 2,
-    "Class": "All Schools",
-    "Effect": "Increases information shown in scouting reports of towns, creatures and heroes.",
-    "Basic Effect": "Displays number of monsters in a wandering monster troop and whether or not the troop will offer to join the casting hero's army. Range is equal to power or three, whichever is greater.",
-    "Advanced Effect": "Same as basic effect, except an enemy hero's primary skill stats, and the composition and quantity of the hero's army can be viewed. Range is (power x 2) or three, whichever is greater.",
-    "Expert Effect": "Same as advanced effect, except an enemy town's statistics and garrison composition and quantity may be viewed. Range is (power x 3) or three, whichever is greater.",
-    "Cost": [
-      4,
-      2
-    ],
-    "Duration": "1 day",
-    "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13] Inferno:18,Necropolis:13, Dungeon:13, Stronghold:13, Fortress:,13 Conflux:11]\n"
-  },
-  {
-    "Name": "Weakness ",
-    "Level": 2,
-    "Class": "Water Magic",
-    "Effect": "Reduces attack rating. Basic: Single enemy. Expert: All enemies.",
-    "Basic Effect": "Target enemy troop's attack rating is reduced by three.",
-    "Advanced Effect": "Target enemy troop's attack rating is reduced by six",
-    "Expert Effect": "All enemy troops' attack ratings are reduced by six.",
-    "Cost": [
-      8,
-      6
-    ],
-    "Duration": "1 rnd/sp",
-    "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13],Inferno:34,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:25, Conflux:20]"
-  }
-  ];
-  
+
 export const level1 =[
   {
     "Name": "Bloodlust",
@@ -255,6 +28,7 @@ export const level1 =[
   },
   {
     "Name": "Curse ",
+    "img_src":"/images/Curse.png",
     "Level": 1,
     "Class": "Fire Magic",
     "Effect": "The targeted (or all) enemy unit(s) deliver minimum or reduced damage when attacking.",
@@ -267,6 +41,7 @@ export const level1 =[
   },
   {
     "Name": "Dispel",
+    "img_src":"/images/Dispel.png",
     "Level": 1,
     "Class": "Water Magic",
     "Effect": "Removes all spell effects from target allied, enemy or all creatures and the battlefield.",
@@ -279,6 +54,7 @@ export const level1 =[
   },
   {
     "Name": "Bless",
+    "img_src":"/images/Bless.png",
     "Level": 1,
     "Class": "Water Magic",
     "Effect": "Target (or all) allied creature(s) inflict maximum damage (or maximum +1) when they attack.",
@@ -291,6 +67,7 @@ export const level1 =[
   },
   {
     "Name": "Haste ",
+    "img_src":"/images/Haste.png",
     "Level": 1,
     "Class": "Air Magic",
     "Effect": "Target (or all) allied troop's speed is increased by 3 (or 5) hexes per turn.",
@@ -303,6 +80,7 @@ export const level1 =[
   },
   {
     "Name": "Magic Arrow ",
+    "img_src":"/images/Magic_Arrow.png",
     "Level": 1,
     "Class": "All Schools",
     "Effect": "Target, enemy troop receives (10/20/30 + (power x 10)) damage",
@@ -315,6 +93,7 @@ export const level1 =[
   },
   {
     "Name": "Protection from Fire ",
+    "img_src":"/images/Protection_from_Fire.png",
     "Level": 1,
     "Class": "Fire Magic",
     "Effect": "Reduces damage taken from fire spells. Basic: Single ally. Expert: All allies.",
@@ -328,6 +107,7 @@ export const level1 =[
   },
   {
     "Name": "Protection from Water",
+    "img_src":"/images/Protection_from_Water.png",
     "Level": 1,
     "Class": "Water Magic",
     "Effect": "Reduces damage taken from water spells. Basic: Single ally. Expert: All allies.",
@@ -340,6 +120,7 @@ export const level1 =[
   },
   {
     "Name": "Shield ",
+    "img_src":"/images/Shield.png",
     "Level": 1,
     "Class": "Earth Magic",
     "Effect": "Reduces damage taken from hand-to-hand attacks. Basic: Single ally. Expert: All allies.",
@@ -352,6 +133,7 @@ export const level1 =[
   },
   {
     "Name": "Slow ",
+    "img_src":"/images/Slow.png",
     "Level": 1,
     "Class": "Earth Magic",
     "Effect": "Decreases speed. Basic: Single enemy. Expert: All enemies.",
@@ -364,6 +146,7 @@ export const level1 =[
   },
   {
     "Name": "Summon Boat ",
+    "img_src":"/images/Summon_Boat.png",
     "Level": 1,
     "Class": "Water Magic",
     "Effect": "Summons unoccupied boat to nearby body of water.",
@@ -376,6 +159,7 @@ export const level1 =[
   },
   {
     "Name": "Stone Skin ",
+    "img_src":"/images/Stone_Skin.png",
     "Level": 1,
     "Class": "Earth Magic",
     "Effect": "Increases defense rating. Basic: Single ally. Expert: All allies.",
@@ -388,6 +172,7 @@ export const level1 =[
   },
   {
     "Name": "View Air ",
+    "img_src":"/images/View_Air.png",
     "Level": 1,
     "Class": "Air Magic",
     "Effect": "Reveals location of all unclaimed artifacts.",
@@ -400,6 +185,7 @@ export const level1 =[
   },
   {
     "Name": "View Earth ",
+    "img_src":"/images/View_Earth.png",
     "Level": 1,
     "Class": "Earth Magic",
     "Effect": "Reveals location of all resources.",
@@ -411,10 +197,255 @@ export const level1 =[
     "Probability": "[Castle:20,Rampart:20,Tower:[25, 20],Inferno:20,Necropolis:20, Dungeon:19, Stronghold:20, Fortress:20, Conflux:20]"
   }
   ];
+
+  export const level2 = [
+    {
+      "Name": "Blind ",
+      "img_src":"/images/Blind.png",
+      "Level": 2,
+      "Class": "Fire Magic",
+      "Effect": "Prevents any action from being taken by target enemy creature.",
+      "Basic Effect": "Target, enemy troop is frozen until attacked, dispelled or effect wears off. Deactivating attack is retaliated at 50% of base attack rating.",
+      "Advanced Effect": "Same as basic effect, except that deactivating attack is retaliated at 25% of base attack rating.",
+      "Expert Effect": "Same as basic effect, except that deactivating attack is not retaliated.",
+      "Cost": [
+        10,
+        8
+      ],
+      "Duration": "1 rnd/sp",
+      "Probability of occurrence (%):": "[Castle:25,Rampart:35,Tower:[18,13],Inferno:47,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:35, Conflux:37]"
+    },
+    {
+      "Name": "Death Ripple ",
+      "img_src":"/images/Death_Ripple.png",
+      "Level": 2,
+      "Class": "Earth Magic",
+      "Effect": "Inflicts magic damage on all livingcreatures.",
+      "Basic Effect": "All creatures (except undead) troops take (10 + (power x 5)) damage.",
+      "Advanced Effect": "All creatures (except undead) troops take (20 + (power x 5)) damage.",
+      "Expert Effect": "All creatures (except undead) troops take (30 + (power x 5)) damage.",
+      "Cost": [
+        10,
+        8
+      ],
+      "Duration": "instant",
+      "Probability of occurrence (%):": "[Castle:0,Rampart:0,Tower:[0,0],Inferno:0,Necropolis:95, Dungeon:0, Stronghold:0, Fortress:0, Conflux:0]"
+    },
+    {
+      "Name": "Disguise",
+      "img_src":"/images/Disguise.png",
+      "Level": 2,
+      "Class": "Air Magic",
+      "Effect": "Modifies the army composition scouting report visible to enemies.",
+      "Basic Effect": "All of the hero's creature troops are displayed as if they were composed of the most powerful creatures in the hero's army. Troop population numbers are represented normally.",
+      "Advanced Effect": "Same as basic effect except troop population quantities are represented as 0.",
+      "Expert Effect": "Same as advanced effect except all troops are represented as if populated by the most powerful creature in hero's longest owned town.",
+      "Cost": [
+        4,
+        2
+      ],
+      "Duration": "1 day",
+      "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13],Inferno:18,Necropolis:13, Dungeon:13, Stronghold:13, Fortress:0, Conflux:11]"
+    },
+    {
+      "Name": "Disrupting Ray",
+      "img_src":"/images/Disrupting_Ray.png",
+      "Level": 2,
+      "Class": "Air Magic",
+      "Effect": "Reduces defense rating of a single enemy. May be used repeatedly on the same target.",
+      "Basic Effect": "Reduces target, enemy troop's defense rating by 3.",
+      "Advanced Effect": "Reduces target, enemy troop's defense rating by 4.",
+      "Expert Effect": "Reduces target, enemy troop's defense rating by 5",
+      "Cost": [
+        10,
+        8
+      ],
+      "Duration": "until end of combat",
+      "Probability of occurrence (%):": "[Castle:35,Rampart:25,Tower:[46,35],Inferno:47,Necropolis:24, Dungeon:35, Stronghold:35, Fortress:35, Conflux:37]"
+    },
+    {
+      "Name": "Fire Wall",
+      "img_src":"/images/Fire_Wall.png",
+      "Level": 2,
+      "Class": "Fire Magic",
+      "Effect": "Creates wall of fire at target location that inflicts magic damage on creatures that pass through.",
+      "Basic Effect": "Two-hex Wall. Damage is (10+ Spell Power*10)",
+      "Advanced Effect": "Three-hex Wall. Damage is (20+ Spell Power*10) Cost reduced by 2",
+      "Expert Effect": "Three-hex Wall. Damage is (50+ Spell Power*10)",
+      "Cost": [
+        8,
+        6
+      ],
+      "Duration": "2 rounds",
+      "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[33,25],Inferno:47,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:25, Conflux:37]"
+    },
+    {
+      "Name": "Fortune ",
+      "img_src":"/images/Fortune.png",
+      "Level": 2,
+      "Class": "Air Magic",
+      "Effect": "Increases luck. Basic: Single ally. Expert: All allies.",
+      "Basic Effect": "Increases luck of target, allied troop by 1.",
+      "Advanced Effect": "Increases luck of target, allied troop by 2.",
+      "Expert Effect": "Increases luck of all allied troops by 2.",
+      "Cost": [
+        7,
+        5
+      ],
+      "Duration": "1 rnd/sp",
+      "Probability of occurrence (%):": "[Castle:25,Rampart:35,Tower:[33,25],Inferno:18,Necropolis:13, Dungeon:13, Stronghold:25, Fortress:25, Conflux:11]"
+    },
+    {
+      "Name": "Ice Bolt ",
+      "img_src":"/images/Ice_Bolt.png",
+      "Level": 2,
+      "Class": "Water Magic",
+      "Effect": "Inflicts magic damage on a single enemy.",
+      "Basic Effect": "Target enemy troop receives (10 + (power x 20)) damage.",
+      "Advanced Effect": "Target enemy troop receives (20 + (power x 20)) damage.",
+      "Expert Effect": "Target enemy troop receives (50 + (power x 20)) damage.",
+      "Cost": [
+        8,
+        6
+      ],
+      "Duration": "instant",
+      "Probability of occurrence (%):": "[Castle:95,Rampart:95,Tower:[46,35],Inferno:0,Necropolis:35, Dungeon:35, Stronghold:25, Fortress:96, Conflux:77]"
+    },
+    {
+      "Name": "Lightning Bolt ",
+      "img_src":"/images/Lightning_Bolt.png",
+      "Level": 2,
+      "Class": "Air Magic",
+      "Effect": "Inflicts magic damage on a single enemy.",
+      "Basic Effect": "Target, enemy creature receives (10 + (power x 25)) damage.",
+      "Advanced Effect": "Target, enemy creature receives (20 + (power x 25)) damage.",
+      "Expert Effect": "Target, enemy creature receives (50 + (power x 25)) damage.",
+      "Cost": [
+        10,
+        8
+      ],
+      "Duration": "instant",
+      "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[98,96],Inferno:65,Necropolis:35, Dungeon:95, Stronghold:95, Fortress:25, Conflux:77]"
+    },
+    {
+      "Name": "Precision ",
+      "img_src":"/images/Precision.png",
+      "Level": 2,
+      "Class": "Air Magic",
+      "Effect": "Increases ranged attack rating. Basic: Single ally. Expert: All allies.",
+      "Basic Effect": "Target, allied troop with ranged attack has its attack rating increased by 3 when making ranged attacks.",
+      "Advanced Effect": "Target, allied troop with ranged attack has its attack rating increased by 6 when making ranged attacks.",
+      "Expert Effect": "All allied troop with ranged attack has its attack rating increased by 6 when making ranged attacks.",
+      "Cost": [
+        8,
+        6
+      ],
+      "Duration": "1 rnd/sp",
+      "Probability of occurrence (%):": "[Castle:35,Rampart:35,Tower:[33,25],Inferno:34,Necropolis:13, Dungeon:35, Stronghold:25, Fortress:25, Conflux:11]"
+    },
+    {
+      "Name": "Protection from Air",
+      "img_src":"/images/Protection_from_Air.png",
+      "Level": 2,
+      "Class": "Air Magic",
+      "Effect": "Reduces damage taken from air spells. Basic: Single ally. Expert: All allies.",
+      "Basic Effect": "Damage from air magic spells is reduced by 30% for target, allied troop.",
+      "Advanced Effect": "Damage from air magic spells is reduced by 50% for target, allied troop.",
+      "Expert Effect": "Damage from air magic spells is reduced by 50% for all allied troops.",
+      "Cost": [
+        7,
+        5
+      ],
+      "Duration": "1 rnd/sp",
+      "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13],Inferno:18,Necropolis:13, Dungeon:13, Stronghold:13, Fortress:13, Conflux:11]"
+    },
+    {
+      "Name": "Quicksand ",
+      "img_src":"/images/Quicksand.png",
+      "Level": 2,
+      "Class": "Earth Magic",
+      "Effect": "Places quicksand at random locations on the battlefield. Only visible to caster and creatures native to the terrain. Creatures attempting to pass through quicksand become stuck and make the location of the quicksand visible.",
+      "Basic Effect": "Quicksand pits are placed in 4 random hexes.",
+      "Advanced Effect": "Quicksand pits are placed in 6 random hexes.",
+      "Expert Effect": "Quicksand pits are placed in 8 random hexes.",
+      "Cost": [
+        8,
+        6
+      ],
+      "Duration": "until end of combat",
+      "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[46,35],Inferno:18,Necropolis:24, Dungeon:25, Stronghold:35, Fortress:35, Conflux:20]"
+    },
+    {
+      "Name": "Remove Obstacle ",
+      "img_src":"/images/Remove_Obstacle.png",
+      "Level": 2,
+      "Class": "Water Magic",
+      "Effect": "Removes obstacles from the battlefield. Basic: Only trees, rocks and other natural obstacles may be removed. Advanced: May also remove fire walls.",
+      "Basic Effect": "Removes one, non-magic obstacle from the battlefield. Integrated obstacles, such as cliffs are not affected.",
+      "Advanced Effect": "Same as basic effect, except fire walls may also be removed.",
+      "Expert Effect": "Same as advanced effect, except all, non-integrated obstacles can be removed.",
+      "Cost": [
+        7,
+        5
+      ],
+      "Duration": "instant",
+      "Probability of occurrence (%):": "[Castle:25,Rampart:25,Tower:[46,35],Inferno:18,Necropolis:24, Dungeon:25, Stronghold:,25 Fortress:25, Conflux:20]"
+    },
+    {
+      "Name": "Scuttle Boat ",
+      "img_src":"/images/Scuttle_Boat.png",
+      "Level": 2,
+      "Class": "Water Magic",
+      "Effect": "Destroys nearby unoccupied boat.",
+      "Basic Effect": "Spell has 50% chance of destroying a boat, unless occupied.",
+      "Advanced Effect": "Spell has 75% chance of destroying a boat, unless occupied.",
+      "Expert Effect": "Spell destroys a boat, unless occupied.",
+      "Cost": [
+        8,
+        6
+      ],
+      "Duration": "instant",
+      "Probability of occurrence (%):": "[Castle:35,Rampart:25,Tower:[33,25],Inferno:18,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:25, Conflux:20]"
+    },
+    {
+      "Name": "Visions ",
+      "img_src":"/images/Visions.png",
+      "Level": 2,
+      "Class": "All Schools",
+      "Effect": "Increases information shown in scouting reports of towns, creatures and heroes.",
+      "Basic Effect": "Displays number of monsters in a wandering monster troop and whether or not the troop will offer to join the casting hero's army. Range is equal to power or three, whichever is greater.",
+      "Advanced Effect": "Same as basic effect, except an enemy hero's primary skill stats, and the composition and quantity of the hero's army can be viewed. Range is (power x 2) or three, whichever is greater.",
+      "Expert Effect": "Same as advanced effect, except an enemy town's statistics and garrison composition and quantity may be viewed. Range is (power x 3) or three, whichever is greater.",
+      "Cost": [
+        4,
+        2
+      ],
+      "Duration": "1 day",
+      "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13] Inferno:18,Necropolis:13, Dungeon:13, Stronghold:13, Fortress:,13 Conflux:11]\n"
+    },
+    {
+      "Name": "Weakness ",
+      "img_src":"/images/Weakness.png",
+      "Level": 2,
+      "Class": "Water Magic",
+      "Effect": "Reduces attack rating. Basic: Single enemy. Expert: All enemies.",
+      "Basic Effect": "Target enemy troop's attack rating is reduced by three.",
+      "Advanced Effect": "Target enemy troop's attack rating is reduced by six",
+      "Expert Effect": "All enemy troops' attack ratings are reduced by six.",
+      "Cost": [
+        8,
+        6
+      ],
+      "Duration": "1 rnd/sp",
+      "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[18,13],Inferno:34,Necropolis:24, Dungeon:25, Stronghold:25, Fortress:25, Conflux:20]"
+    }
+    ];
+    
   
 export const level3 = [
   {
     "Name": "Air Shield ",
+    "img_src":"/images/Air_Shield.png",
     "Level": 3,
     "Class": "Air Magic",
     "Effect": "Reduces damage taken from ranged attacks.",
@@ -430,6 +461,7 @@ export const level3 = [
   },
   {
     "Name": "Animate Dead ",
+    "img_src":"/images/Animate_Dead.png",
     "Level": 3,
     "Class": "Earth Magic",
     "Effect": "Reanimates killed undead creatures. Reanimated creatures are not lost when combat ends.",
@@ -445,6 +477,7 @@ export const level3 = [
   },
   {
     "Name": "Anti-Magic ",
+    "img_src":"/images/Anti-Magic.png",
     "Level": 3,
     "Class": "Earth Magic",
     "Effect": "Grants spell immunity to a single creature.",
@@ -460,6 +493,7 @@ export const level3 = [
   },
   {
     "Name": "Destroy Undead ",
+    "img_src":"/images/Destroy_Undead.png",
     "Level": 3,
     "Class": "Air Magic",
     "Effect": "Inflicts magic damage on all undead creatures.",
@@ -475,6 +509,7 @@ export const level3 = [
   },
   {
     "Name": "Earthquake ",
+    "img_src":"/images/Earthquake.png",
     "Level": 3,
     "Class": "Earth Magic",
     "Effect": "Inflicts damage on random castle wall sections during a siege.",
@@ -490,6 +525,7 @@ export const level3 = [
   },
   {
     "Name": "Fireball ",
+    "img_src":"/images/Fireball.png",
     "Level": 3,
     "Class": "Fire Magic",
     "Effect": "Inflicts magic damage on all creatures in area.",
@@ -505,6 +541,7 @@ export const level3 = [
   },
   {
     "Name": "Force Field ",
+    "img_src":"/images/Force_Field.png",
     "Level": 3,
     "Class": "Earth Magic",
     "Effect": "Places force field at specified location. Creatures cannot pass this field.",
@@ -520,6 +557,7 @@ export const level3 = [
   },
   {
     "Name": "Forgetfulness ",
+    "img_src":"/images/Forgetfulness.png",
     "Level": 3,
     "Class": "Water Magic",
     "Effect": "Prevents use of ranged attacks. Basic: Single enemy. Expert: All enemies.",
@@ -535,6 +573,7 @@ export const level3 = [
   },
   {
     "Name": "Frost Ring ",
+    "img_src":"/images/Frost_Ring.png",
     "Level": 3,
     "Class": "Water Magic",
     "Effect": "Inflicts magic damage on all creatures in area.",
@@ -550,6 +589,7 @@ export const level3 = [
   },
   {
     "Name": "Hypnotize ",
+    "img_src":"/images/Hypnotize.png",
     "Level": 3,
     "Class": "Air Magic",
     "Effect": "Allows control of actions taken by enemy creature.",
@@ -564,7 +604,8 @@ export const level3 = [
     "Probability of occurrence (%):": "[Castle:13,Rampart:13,Tower:[32,24],Inferno:25,Necropolis:0, Dungeon:24, Stronghold:13, Fortress:17, Conflux:35]"
   },
   {
-    "Name": "Land Mine ",
+    "Name": "Land Mine",
+    "img_src":"/images/Land_Mine.png",
     "Level": 3,
     "Class": "Fire Magic",
     "Effect": "Places landmines at random locations on the battlefield. Only visible to caster and creatures native to the terrain.",
@@ -579,7 +620,8 @@ export const level3 = [
     "Probability of occurrence (%):": "[Castle:24,Rampart:24,Tower:[32,24],Inferno:25,Necropolis:25, Dungeon:35, Stronghold:24, Fortress:9, Conflux:13]"
   },
   {
-    "Name": "Mirth ",
+    "Name": "Mirth",
+    "img_src":"/images/Mirth.png",
     "Level": 3,
     "Class": "Water Magic",
     "Effect": "Increases morale. Basic: Single ally. Expert: All allies.",
@@ -595,6 +637,7 @@ export const level3 = [
   },
   {
     "Name": "Misfortune ",
+    "img_src":"/images/Misfortune.png",
     "Level": 3,
     "Class": "Fire Magic",
     "Effect": "Reduces luck. Basic: Single enemy. Expert: All enemies.",
@@ -610,6 +653,7 @@ export const level3 = [
   },
   {
     "Name": "Protection from Earth ",
+    "img_src":"/images/Protection_from_Earth.png",
     "Level": 3,
     "Class": "Earth Magic",
     "Effect": "Reduces damage taken from earth spells. Basic: Single ally. Expert: All allies.",
@@ -625,6 +669,7 @@ export const level3 = [
   },
   {
     "Name": "Teleport ",
+    "img_src":"/images/Teleport.png",
     "Level": 3,
     "Class": "Water Magic",
     "Effect": "Teleports ally to location on the battlefield. Expert: May teleport creature over castle walls.",
@@ -645,6 +690,7 @@ export const level3 = [
 export const level4 = [
   {
     "Name": "Armageddon ",
+    "img_src":"/images/Armageddon.png",
     "Level": 4,
     "Class": "Fire Magic",
     "Effect": "Inflicts magic damage on all creatures on the battlefield.",
@@ -660,6 +706,7 @@ export const level4 = [
   },
   {
     "Name": "Berserk ",
+    "img_src":"/images/Berserk.png",
     "Level": 4,
     "Class": "Fire Magic",
     "Effect": "Forces enemy to attack closest creature.",
@@ -675,6 +722,7 @@ export const level4 = [
   },
   {
     "Name": "Chain Lightning ",
+    "img_src":"/images/Chain_Lightning.png",
     "Level": 4,
     "Class": "Air Magic",
     "Effect": "Inflicts magic damage on initial creature and reduced damage on nearby creatures.",
@@ -690,6 +738,7 @@ export const level4 = [
   },
   {
     "Name": "Clone ",
+    "img_src":"/images/Clone.png",
     "Level": 4,
     "Class": "Water Magic",
     "Effect": "Creates clone of allied creature.",
@@ -705,6 +754,7 @@ export const level4 = [
   },
   {
     "Name": "Counterstrike ",
+    "img_src":"/images/Counterstrike.png",
     "Level": 4,
     "Class": "Air Magic",
     "Effect": "Allows extra retaliations per round. Basic: Single ally. Expert: All allies.",
@@ -720,6 +770,7 @@ export const level4 = [
   },
   {
     "Name": "Fire Shield ",
+    "img_src":"/images/Fire_Shield.png",
     "Level": 4,
     "Class": "Fire Magic",
     "Effect": "Inflicts magic damage proportional to damage taken from�hand-to-hand�attacks.",
@@ -735,6 +786,7 @@ export const level4 = [
   },
   {
     "Name": "Frenzy ",
+    "img_src":"/images/Frenzy.png",
     "Level": 4,
     "Class": "Fire Magic",
     "Effect": "Increases attack rating and sets defense rating to 0.",
@@ -750,6 +802,7 @@ export const level4 = [
   },
   {
     "Name": "Inferno ",
+    "img_src":"/images/Inferno.png",
     "Level": 4,
     "Class": "Fire Magic",
     "Effect": "Inflicts magic damage on all creatures in area.",
@@ -765,6 +818,7 @@ export const level4 = [
   },
   {
     "Name": "Meteor Shower",
+    "img_src":"/images/Meteor_Shower.png",
     "Level": 4,
     "Class": "Earth Magic",
     "Effect": "Inflicts magic damage on all creatures in area.",
@@ -780,6 +834,7 @@ export const level4 = [
   },
   {
     "Name": "Prayer ",
+    "img_src":"/images/Prayer.png",
     "Level": 4,
     "Class": "Water Magic",
     "Effect": "Increases attack rating, defense rating and speed. Basic: Single ally. Expert: All allies.",
@@ -795,6 +850,7 @@ export const level4 = [
   },
   {
     "Name": "Resurrection ",
+    "img_src":"/images/Resurrection.png",
     "Level": 4,
     "Class": "Earth Magic",
     "Effect": "Resurrects killed living creatures until the end of combat. Advanced: Resurrected creatures are not lost when combat ends.",
@@ -810,6 +866,7 @@ export const level4 = [
   },
   {
     "Name": "Slayer ",
+    "img_src":"/images/Slayer.png",
     "Level": 4,
     "Class": "Fire Magic",
     "Effect": "Increases attack rating of a single ally against Dragons, Behemoths and Hydras. Advanced: Effect applies to Angels and Devils. Expert: Effect applies to Titans.",
@@ -825,6 +882,7 @@ export const level4 = [
   },
   {
     "Name": "Sorrow ",
+    "img_src":"/images/Sorrow.png",
     "Level": 4,
     "Class": "Earth Magic",
     "Effect": "Reduces morale. Basic: Single enemy. Expert: All enemies.",
@@ -840,6 +898,7 @@ export const level4 = [
   },
   {
     "Name": "Town Portal ",
+    "img_src":"/images/Town_Portal.png",
     "Level": 4,
     "Class": "Earth Magic",
     "Effect": "Teleports hero to closest allied, unoccupied town. Advanced: May choose any allied, unoccupied town.",
@@ -855,6 +914,7 @@ export const level4 = [
   },
   {
     "Name": "Water Walk ",
+    "img_src":"/images/Water_Walk.png",
     "Level": 4,
     "Class": "Water Magic",
     "Effect": "Allows movement to visible land across bodies of�water.",
@@ -873,6 +933,7 @@ export const level4 = [
 
 export const level5 = [{
   "Name": "Dimension Door",
+  "img_src":"/images/Dimension_Door.png",
   "Level": 5,
   "Class": "Air Magic",
   "Effect": "Teleports hero to visible location.",
@@ -888,6 +949,7 @@ export const level5 = [{
 },
 {
   "Name": "Fly",
+  "img_src":"/images/Fly.png",
   "Level": 5,
   "Class": "Air Magic",
   "Effect": "Allows movement to visible land over all map obstacles. Cannot fly through cave walls in the underground.",
@@ -903,6 +965,7 @@ export const level5 = [{
 },
 {
   "Name": "Implosion ",
+  "img_src":"/images/Implosion.png",
   "Level": 5,
   "Class": "Earth Magic",
   "Effect": "Inflicts magic damage on a single enemy.",
@@ -918,6 +981,7 @@ export const level5 = [{
 },
 {
   "Name": "Magic Mirror ",
+  "img_src":"/images/Magic_Mirror.png",
   "Level": 5,
   "Class": "Air Magic",
   "Effect": "Reflects hostile spells to a random enemy. Basic: 20% chance of occurrence. Advanced: 30% chance. Expert: 40% chance.",
@@ -933,6 +997,7 @@ export const level5 = [{
 },
 {
   "Name": "Sacrifice ",
+  "img_src":"/images/Sacrifice.png",
   "Level": 5,
   "Class": "Fire Magic",
   "Effect": "Destroys and removes living, unkilled allies to bring previously living, killed allies back to life.",
@@ -948,6 +1013,7 @@ export const level5 = [{
 },
 {
   "Name": "Summon Air Elemental ",
+  "img_src":"/images/Summon_Air_Elemental.png",
   "Level": 5,
   "Class": "Air Magic",
   "Effect": "Summons allied Air Elementals for the duration of combat.",
@@ -963,6 +1029,7 @@ export const level5 = [{
 },
 {
   "Name": "Summon Earth Elemental ",
+  "img_src":"/images/Summon_Earth_Elemental.png",
   "Level": 5,
   "Class": "Earth Magic",
   "Effect": "Summons allied Earth Elementals for the duration of combat.",
@@ -978,6 +1045,7 @@ export const level5 = [{
 },
 {
   "Name": "Summon Fire Elemental ",
+  "img_src":"/images/Summon_Fire_Elemental.png",
   "Level": 5,
   "Class": "Fire Magic",
   "Effect": "Summons allied Fire Elementals for the duration of combat.",
@@ -993,6 +1061,7 @@ export const level5 = [{
 },
 {
   "Name": "Summon Water Elemental",
+  "img_src":"/images/Summon_Water_Elemental.png",
   "Level": 5,
   "Class": "Water Magic",
   "Effect": "Summons allied Water Elementals for the duration of combat.",
@@ -1008,6 +1077,7 @@ export const level5 = [{
 },
 {
   "Name": "Titan's Lightning Bolt ",
+  "img_src":"/images/Titan's_Lightning_Bolt.png",
   "Level": 5,
   "Class": "Air Magic",
   "Effect": "Inflicts 600 magic damage on a single enemy. Requires Titan's Thunder.",

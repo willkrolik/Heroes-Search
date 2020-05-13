@@ -19,7 +19,7 @@ const UnitContainer = (props) => {
             Upgraded={unit.Upgraded}
             Cost={unit.Cost}
             Special={unit.Special}
-
+            img={unit.img_src}
         />
     });
     return (

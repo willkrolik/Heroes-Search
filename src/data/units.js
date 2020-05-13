@@ -1,6 +1,7 @@
 export const CastleUnits =[
     {
     "Name": "Pikeman",
+    "img_src":"/unit_images/Creature_Pikeman.gif",
     "Town": "Castle",
     "Level": 1,
     "Attack": 4,
@@ -19,6 +20,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Halberdier",
+    "img_src":"/unit_images/Creature_Halberdier.gif",
     "Town": "Castle",
     "Level": 1,
     "Attack": 6,
@@ -37,6 +39,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Archer",
+    "img_src":"/unit_images/Creature_Archer.gif",
     "Town": "Castle",
     "Level": 2,
     "Attack": 6,
@@ -55,6 +58,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Marksman",
+    "img_src":"/unit_images/Creature_Marksman.gif",
     "Town": "Castle",
     "Level": 2,
     "Attack": 6,
@@ -73,6 +77,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Griffin",
+    "img_src":"/unit_images/Creature_Griffin.gif",
     "Town": "Castle",
     "Level": 3,
     "Attack": 8,
@@ -91,6 +96,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Royal Griffin",
+    "img_src":"/unit_images/Creature_Royal_Griffin.gif",
     "Town": "Castle",
     "Level": 3,
     "Attack": 9,
@@ -109,6 +115,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Swordsman",
+    "img_src":"/unit_images/Creature_Swordsman.gif",
     "Town": "Castle",
     "Level": 4,
     "Attack": 10,
@@ -127,6 +134,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Crusader",
+    "img_src":"/unit_images/Creature_Crusader.gif",
     "Town": "Castle",
     "Level": 4,
     "Attack": 12,
@@ -145,6 +153,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Monk",
+    "img_src":"/unit_images/Creature_Monk.gif",
     "Town": "Castle",
     "Level": 5,
     "Attack": 12,
@@ -163,6 +172,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Zealot",
+    "img_src":"/unit_images/Creature_Zealot.gif",
     "Town": "Castle",
     "Level": 5,
     "Attack": 12,
@@ -181,6 +191,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Cavalier",
+    "img_src":"/unit_images/Creature_Cavalier.gif",
     "Town": "Castle",
     "Level": 6,
     "Attack": 15,
@@ -199,6 +210,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Champion",
+    "img_src":"/unit_images/Creature_Champion.gif",
     "Town": "Castle",
     "Level": 6,
     "Attack": 16,
@@ -217,6 +229,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Angel",
+    "img_src":"/unit_images/Creature_Angel.gif",
     "Town": "Castle",
     "Level": 7,
     "Attack": 20,
@@ -235,6 +248,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Archangel",
+    "img_src":"/unit_images/Creature_Archangel.gif",
     "Town": "Castle",
     "Level": 7,
     "Attack": 30,
@@ -257,6 +271,7 @@ export const CastleUnits =[
   }];
   export const RampartUnits =[{
     "Name": "Centaur",
+    "img_src":"/unit_images/Creature_Centaur.gif",
     "Town": "Rampart",
     "Level": 1,
     "Attack": 5,
@@ -275,6 +290,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Centaur Captain",
+    "img_src":"/unit_images/Creature_Centaur_Captain.gif",
     "Town": "Rampart",
     "Level": 1,
     "Attack": 6,
@@ -293,6 +309,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Dwarf",
+    "img_src":"/unit_images/Creature_Dwarf.gif",
     "Town": "Rampart",
     "Level": 2,
     "Attack": 6,
@@ -311,6 +328,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Battle Dwarf",
+    "img_src":"/unit_images/Creature_Battle_Dwarf.gif",
     "Town": "Rampart",
     "Level": 2,
     "Attack": 7,
@@ -329,6 +347,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wood Elf",
+    "img_src":"/unit_images/Creature_Wood_Elf.gif",
     "Town": "Rampart",
     "Level": 3,
     "Attack": 9,
@@ -347,6 +366,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Grand Elf",
+    "img_src":"/unit_images/Creature_Grand_Elf.gif",
     "Town": "Rampart",
     "Level": 3,
     "Attack": 9,
@@ -365,6 +385,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Pegasus",
+    "img_src":"/unit_images/Creature_Pegasus.gif",
     "Town": "Rampart",
     "Level": 4,
     "Attack": 9,
@@ -383,6 +404,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Silver Pegasus",
+    "img_src":"/unit_images/Creature_Silver_Pegasus.gif",
     "Town": "Rampart",
     "Level": 4,
     "Attack": 9,
@@ -401,6 +423,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Dendroid Guard",
+    "img_src":"/unit_images/Creature_Dendroid_Guard.gif",
     "Town": "Rampart",
     "Level": 5,
     "Attack": 9,
@@ -419,6 +442,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Dendroid Soldier",
+    "img_src":"/unit_images/Creature_Dendroid_Soldier.gif",
     "Town": "Rampart",
     "Level": 5,
     "Attack": 9,
@@ -437,6 +461,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Unicorn",
+    "img_src":"/unit_images/Creature_Unicorn.gif",
     "Town": "Rampart",
     "Level": 6,
     "Attack": 15,
@@ -455,6 +480,7 @@ export const CastleUnits =[
   },
   {
     "Name": "War Unicorn",
+    "img_src":"/unit_images/Creature_War_Unicorn.gif",
     "Town": "Rampart",
     "Level": 6,
     "Attack": 15,
@@ -473,6 +499,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Green Dragon",
+    "img_src":"/unit_images/Creature_Green_Dragon.gif",
     "Town": "Rampart",
     "Level": 7,
     "Attack": 18,
@@ -495,6 +522,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Gold Dragon",
+    "img_src":"/unit_images/Creature_Gold_Dragon.gif",
     "Town": "Rampart",
     "Level": 7,
     "Attack": 27,
@@ -518,6 +546,7 @@ export const CastleUnits =[
 
   export const TowerUnits = [{
     "Name": "Gremlin",
+    "img_src":"/unit_images/Creature_Gremlin.gif",
     "Town": "Tower",
     "Level": 1,
     "Attack": 3,
@@ -536,6 +565,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Master Gremlin",
+    "img_src":"/unit_images/Creature_Master_Gremlin.gif",
     "Town": "Tower",
     "Level": 1,
     "Attack": 4,
@@ -554,6 +584,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Stone Gargoyle",
+    "img_src":"/unit_images/Creature_Stone_Gargoyle.gif",
     "Town": "Tower",
     "Level": 2,
     "Attack": 6,
@@ -572,6 +603,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Obsidian Gargoyle",
+    "img_src":"/unit_images/Creature_Obsidian_Gargoyle.gif",
     "Town": "Tower",
     "Level": 2,
     "Attack": 7,
@@ -590,6 +622,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Stone Golem",
+    "img_src":"/unit_images/Creature_Stone_Golem.gif",
     "Town": "Tower",
     "Level": 3,
     "Attack": 7,
@@ -608,6 +641,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Iron Golem",
+    "img_src":"/unit_images/Creature_Iron_Golem.gif",
     "Town": "Tower",
     "Level": 3,
     "Attack": 9,
@@ -626,6 +660,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Mage",
+    "img_src":"/unit_images/Creature_Mage.gif",
     "Town": "Tower",
     "Level": 4,
     "Attack": 11,
@@ -648,6 +683,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Arch Mage",
+    "img_src":"/unit_images/Creature_Arch_Mage.gif",
     "Town": "Tower",
     "Level": 4,
     "Attack": 12,
@@ -670,6 +706,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Genie",
+    "img_src":"/unit_images/Creature_Genie.gif",
     "Town": "Tower",
     "Level": 5,
     "Attack": 12,
@@ -688,6 +725,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Master Genie",
+    "img_src":"/unit_images/Creature_Master_Genie.gif",
     "Town": "Tower",
     "Level": 5,
     "Attack": 12,
@@ -706,6 +744,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Naga",
+    "img_src":"/unit_images/Creature_Naga.gif",
     "Town": "Tower",
     "Level": 6,
     "Attack": 16,
@@ -724,6 +763,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Naga Queen",
+    "img_src":"/unit_images/Creature_Naga_Queen.gif",
     "Town": "Tower",
     "Level": 6,
     "Attack": 16,
@@ -742,6 +782,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Giant",
+    "img_src":"/unit_images/Creature_Giant.gif",
     "Town": "Tower",
     "Level": 7,
     "Attack": 19,
@@ -760,6 +801,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Titan",
+    "img_src":"/unit_images/Creature_Titan.gif",
     "Town": "Tower",
     "Level": 7,
     "Attack": 24,
@@ -783,6 +825,7 @@ export const CastleUnits =[
 
   export const InfernoUnits = [{
     "Name": "Imp",
+    "img_src":"/unit_images/Creature_Imp.gif",
     "Town": "Inferno",
     "Level": 1,
     "Attack": 2,
@@ -801,6 +844,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Familiar",
+    "img_src":"/unit_images/Creature_Familiar.gif",
     "Town": "Inferno",
     "Level": 1,
     "Attack": 4,
@@ -819,6 +863,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Gog",
+    "img_src":"/unit_images/Creature_Gog.gif",
     "Town": "Inferno",
     "Level": 2,
     "Attack": 6,
@@ -837,6 +882,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Magog",
+    "img_src":"/unit_images/Creature_Magog.gif",
     "Town": "Inferno",
     "Level": 2,
     "Attack": 7,
@@ -855,6 +901,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Hell Hound",
+    "img_src":"/unit_images/Creature_Hell_Hound.gif",
     "Town": "Inferno",
     "Level": 3,
     "Attack": 10,
@@ -873,6 +920,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Cerberus",
+    "img_src":"/unit_images/Creature_Cerberus.gif",
     "Town": "Inferno",
     "Level": 3,
     "Attack": 10,
@@ -891,6 +939,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Demon",
+    "img_src":"/unit_images/Creature_Demon.gif",
     "Town": "Inferno",
     "Level": 4,
     "Attack": 10,
@@ -909,6 +958,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Horned Demon",
+    "img_src":"/unit_images/Creature_Horned_Demon.gif",
     "Town": "Inferno",
     "Level": 4,
     "Attack": 10,
@@ -927,6 +977,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Pit Fiend",
+    "img_src":"/unit_images/Creature_Pit_Fiend.gif",
     "Town": "Inferno",
     "Level": 5,
     "Attack": 13,
@@ -945,6 +996,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Pit Lord",
+    "img_src":"/unit_images/Creature_Pit_Lord.gif",
     "Town": "Inferno",
     "Level": 5,
     "Attack": 13,
@@ -963,6 +1015,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Efreeti",
+    "img_src":"/unit_images/Creature_Efreeti.gif",
     "Town": "Inferno",
     "Level": 6,
     "Attack": 16,
@@ -980,7 +1033,8 @@ export const CastleUnits =[
     "Special": ["Immune to fire", "Hates genies"]
   },
   {
-    "Name": "Efreeti Sultan",
+    "Name": "Efreet Sultan",
+    "img_src":"/unit_images/Creature_Efreet_Sultan.gif",
     "Town": "Inferno",
     "Level": 6,
     "Attack": 16,
@@ -999,6 +1053,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Devil",
+    "img_src":"/unit_images/Creature_Devil.gif",
     "Town": "Inferno",
     "Level": 7,
     "Attack": 19,
@@ -1017,6 +1072,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Arch Devil",
+    "img_src":"/unit_images/Creature_Arch_Devil.gif",
     "Town": "Inferno",
     "Level": 7,
     "Attack": 26,
@@ -1036,6 +1092,7 @@ export const CastleUnits =[
 
   export const NecropolisUnits = [{
     "Name": "Skeleton",
+    "img_src":"/unit_images/Creature_Skeleton.gif",
     "Town": "Necropolis",
     "Level": 1,
     "Attack": 5,
@@ -1054,6 +1111,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Skeleton Warrior",
+    "img_src":"/unit_images/Creature_Skeleton_Warrior.gif",
     "Town": "Necropolis",
     "Level": 1,
     "Attack": 6,
@@ -1071,7 +1129,8 @@ export const CastleUnits =[
     "Special": "Undead"
   },
   {
-    "Name": "Waling Dead",
+    "Name": "Walking Dead",
+    "img_src":"/unit_images/Creature_Walking_Dead.gif",
     "Town": "Necropolis",
     "Level": 2,
     "Attack": 5,
@@ -1090,6 +1149,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Zombie",
+    "img_src":"/unit_images/Creature_Zombie.gif",
     "Town": "Necropolis",
     "Level": 2,
     "Attack": 5,
@@ -1108,6 +1168,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wight",
+    "img_src":"/unit_images/Creature_Wight.gif",
     "Town": "Necropolis",
     "Level": 3,
     "Attack": 7,
@@ -1126,6 +1187,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wraith",
+    "img_src":"/unit_images/Creature_Wraith.gif",
     "Town": "Necropolis",
     "Level": 3,
     "Attack": 7,
@@ -1144,6 +1206,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Vampire",
+    "img_src":"/unit_images/Creature_Vampire.gif",
     "Town": "Necropolis",
     "Level": 4,
     "Attack": 10,
@@ -1162,6 +1225,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Vampire Lord",
+    "img_src":"/unit_images/Creature_Vampire_Lord.gif",
     "Town": "Necropolis",
     "Level": 4,
     "Attack": 10,
@@ -1180,6 +1244,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Lich",
+    "img_src":"/unit_images/Creature_Lich.gif",
     "Town": "Necropolis",
     "Level": 5,
     "Attack": 13,
@@ -1198,6 +1263,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Power Lich",
+    "img_src":"/unit_images/Creature_Power_Lich.gif",
     "Town": "Necropolis",
     "Level": 5,
     "Attack": 13,
@@ -1216,6 +1282,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Black Knight",
+    "img_src":"/unit_images/Creature_Black_Knight.gif",
     "Town": "Necropolis",
     "Level": 6,
     "Attack": 16,
@@ -1234,6 +1301,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Dread Knight",
+    "img_src":"/unit_images/Creature_Dread_Knight.gif",
     "Town": "Necropolis",
     "Level": 6,
     "Attack": 18,
@@ -1252,6 +1320,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Bone Dragon",
+    "img_src":"/unit_images/Creature_Bone_Dragon.gif",
     "Town": "Necropolis",
     "Level": 7,
     "Attack": 17,
@@ -1270,6 +1339,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Ghost Dragon",
+    "img_src":"/unit_images/Creature_Ghost_Dragon.gif",
     "Town": "Necropolis",
     "Level": 7,
     "Attack": 19,
@@ -1294,6 +1364,7 @@ export const CastleUnits =[
 
   export const DungeonUnits =[{
     "Name": "Troglodyte",
+    "img_src":"/unit_images/Creature_Troglodyte.gif",
     "Town": "Dungeon",
     "Level": 1,
     "Attack": 4,
@@ -1312,6 +1383,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Infernal Troglodyte",
+    "img_src":"/unit_images/Creature_Infernal_Troglodyte.gif",
     "Town": "Dungeon",
     "Level": 1,
     "Attack": 5,
@@ -1330,6 +1402,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Harpy",
+    "img_src":"/unit_images/Creature_Harpy.gif",
     "Town": "Dungeon",
     "Level": 2,
     "Attack": 6,
@@ -1348,6 +1421,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Harpy Hag",
+    "img_src":"/unit_images/Creature_Harpy_Hag.gif",
     "Town": "Dungeon",
     "Level": 2,
     "Attack": 6,
@@ -1366,6 +1440,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Beholder",
+    "img_src":"/unit_images/Creature_Beholder.gif",
     "Town": "Dungeon",
     "Level": 3,
     "Attack": 9,
@@ -1384,6 +1459,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Evil Eye",
+    "img_src":"/unit_images/Creature_Evil_Eye.gif",
     "Town": "Dungeon",
     "Level": 3,
     "Attack": 10,
@@ -1402,6 +1478,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Medusa",
+    "img_src":"/unit_images/Creature_Medusa.gif",
     "Town": "Dungeon",
     "Level": 4,
     "Attack": 9,
@@ -1420,6 +1497,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Medusa Queen",
+    "img_src":"/unit_images/Creature_Medusa_Queen.gif",
     "Town": "Dungeon",
     "Level": 4,
     "Attack": 10,
@@ -1438,6 +1516,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Minotaur",
+    "img_src":"/unit_images/Creature_Minotaur.gif",
     "Town": "Dungeon",
     "Level": 5,
     "Attack": 14,
@@ -1456,6 +1535,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Minotaur King",
+    "img_src":"/unit_images/Creature_Minotaur_King.gif",
     "Town": "Dungeon",
     "Level": 5,
     "Attack": 15,
@@ -1474,6 +1554,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Manticore",
+    "img_src":"/unit_images/Creature_Manticore.gif",
     "Town": "Dungeon",
     "Level": 6,
     "Attack": 15,
@@ -1492,6 +1573,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Scorpicore",
+    "img_src":"/unit_images/Creature_Scorpicore.gif",
     "Town": "Dungeon",
     "Level": 6,
     "Attack": 16,
@@ -1510,6 +1592,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Red Dragon",
+    "img_src":"/unit_images/Creature_Red_Dragon.gif",
     "Town": "Dungeon",
     "Level": 7,
     "Attack": 19,
@@ -1528,6 +1611,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Black Dragon",
+    "img_src":"/unit_images/Creature_Black_Dragon.gif",
     "Town": "Dungeon",
     "Level": 7,
     "Attack": 25,
@@ -1547,6 +1631,7 @@ export const CastleUnits =[
 
   export const StrongholdUnits = [{
     "Name": "Goblin",
+    "img_src":"/unit_images/Creature_Goblin.gif",
     "Town": "Stronghold",
     "Level": 1,
     "Attack": 4,
@@ -1565,6 +1650,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Hobgoblin",
+    "img_src":"/unit_images/Creature_Hobgoblin.gif",
     "Town": "Stronghold",
     "Level": 1,
     "Attack": 5,
@@ -1583,6 +1669,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wolf Rider",
+    "img_src":"/unit_images/Wolf_Rider_(adventure_map).gif",
     "Town": "Stronghold",
     "Level": 2,
     "Attack": 7,
@@ -1601,6 +1688,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wolf Raider",
+    "img_src":"/unit_images/Wolf_Raider_(adventure_map).gif",
     "Town": "Stronghold",
     "Level": 2,
     "Attack": 8,
@@ -1619,6 +1707,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Orc",
+    "img_src":"/unit_images/Creature_Orc.gif",
     "Town": "Stronghold",
     "Level": 3,
     "Attack": 8,
@@ -1637,6 +1726,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Orc Chieftain",
+    "img_src":"/unit_images/Creature_Orc_Chieftain.gif",
     "Town": "Stronghold",
     "Level": 3,
     "Attack": 8,
@@ -1655,6 +1745,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Ogre",
+    "img_src":"/unit_images/Creature_Ogre.gif",
     "Town": "Stronghold",
     "Level": 4,
     "Attack": 13,
@@ -1673,6 +1764,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Ogre Mage",
+    "img_src":"/unit_images/Creature_Ogre_Mage.gif",
     "Town": "Stronghold",
     "Level": 4,
     "Attack": 13,
@@ -1691,6 +1783,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Roc",
+    "img_src":"/unit_images/Creature_Roc.gif",
     "Town": "Stronghold",
     "Level": 5,
     "Attack": 13,
@@ -1709,6 +1802,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Thunderbird",
+    "img_src":"/unit_images/Creature_Thunderbird.gif",
     "Town": "Stronghold",
     "Level": 5,
     "Attack": 13,
@@ -1727,6 +1821,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Cyclops",
+    "img_src":"/unit_images/Cyclops.gif",
     "Town": "Stronghold",
     "Level": 6,
     "Attack": 15,
@@ -1744,7 +1839,8 @@ export const CastleUnits =[
     "Special": "Can attack siege walls"
   },
   {
-    "Name": "Cyclops Kings",
+    "Name": "Cyclops King",
+    "img_src":"/unit_images/Creature_Cyclops_King.gif",
     "Town": "Stronghold",
     "Level": 6,
     "Attack": 17,
@@ -1763,6 +1859,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Behemoth",
+    "img_src":"/unit_images/Creature_Behemoth.gif",
     "Town": "Stronghold",
     "Level": 7,
     "Attack": 17,
@@ -1781,6 +1878,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Ancient Behemoth",
+    "img_src":"/unit_images/Creature_Ancient_Behemoth.gif",
     "Town": "Stronghold",
     "Level": 7,
     "Attack": 19,
@@ -1800,6 +1898,7 @@ export const CastleUnits =[
 
   export const FortressUnits = [{
     "Name": "Gnoll",
+    "img_src":"/unit_images/Creature_Gnoll.gif",
     "Town": "Fortress",
     "Level": 1,
     "Attack": 3,
@@ -1818,6 +1917,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Gnoll Marauder",
+    "img_src":"/unit_images/Creature_Gnoll_Marauder.gif",
     "Town": "Fortress",
     "Level": 1,
     "Attack": 4,
@@ -1836,6 +1936,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Lizardman",
+    "img_src":"/unit_images/Creature_Lizardman.gif",
     "Town": "Fortress",
     "Level": 2,
     "Attack": 5,
@@ -1854,6 +1955,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Lizard Warrior",
+    "img_src":"/unit_images/Creature_Lizard_Warrior.gif",
     "Town": "Fortress",
     "Level": 2,
     "Attack": 6,
@@ -1872,6 +1974,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Serpent Fly",
+    "img_src":"/unit_images/Creature_Serpent_Fly.gif",
     "Town": "Fortress",
     "Level": 3,
     "Attack": 7,
@@ -1890,6 +1993,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Dragon Fly",
+    "img_src":"/unit_images/Creature_Dragon_Fly.gif",
     "Town": "Fortress",
     "Level": 3,
     "Attack": 8,
@@ -1908,6 +2012,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Basilisk",
+    "img_src":"/unit_images/Creature_Basilisk.gif",
     "Town": "Fortress",
     "Level": 4,
     "Attack": 11,
@@ -1926,6 +2031,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Greater Basilisk",
+    "img_src":"/unit_images/Creature_Greater_Basilisk.gif",
     "Town": "Fortress",
     "Level": 4,
     "Attack": 12,
@@ -1944,6 +2050,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Gorgon",
+    "img_src":"/unit_images/Creature_Gorgon.gif",
     "Town": "Fortress",
     "Level": 5,
     "Attack": 10,
@@ -1962,6 +2069,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Mighty Gorgon",
+    "img_src":"/unit_images/Creature_Mighty_Gorgon.gif",
     "Town": "Fortress",
     "Level": 5,
     "Attack": 11,
@@ -1980,6 +2088,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wyvern",
+    "img_src":"/unit_images/Creature_Wyvern.gif",
     "Town": "Fortress",
     "Level": 6,
     "Attack": 14,
@@ -1998,6 +2107,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Wyvern Monarch",
+    "img_src":"/unit_images/Creature_Wyvern_Monarch.gif",
     "Town": "Fortress",
     "Level": 6,
     "Attack": 14,
@@ -2016,6 +2126,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Hydra",
+    "img_src":"/unit_images/Creature_Hydra.gif",
     "Town": "Fortress",
     "Level": 7,
     "Attack": 16,
@@ -2034,6 +2145,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Chaos Hydra",
+    "img_src":"/unit_images/Creature_Chaos_Hydra.gif",
     "Town": "Fortress",
     "Level": 7,
     "Attack": 18,
@@ -2053,6 +2165,7 @@ export const CastleUnits =[
 
   export const ConfluxUnits = [{
     "Name": "Pixie",
+    "img_src":"/unit_images/Creature_Pixie.gif",
     "Town": "Conflux",
     "Level": 1,
     "Attack": 2,
@@ -2071,6 +2184,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Sprite",
+    "img_src":"/unit_images/Creature_Sprite.gif",
     "Town": "Conflux",
     "Level": 1,
     "Attack": 2,
@@ -2089,6 +2203,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Air Elemental",
+    "img_src":"/unit_images/Creature_Air_Elemental.gif",
     "Town": "Conflux",
     "Level": 2,
     "Attack": 9,
@@ -2107,6 +2222,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Storm Elemental",
+    "img_src":"/unit_images/Creature_Storm_Elemental.gif",
     "Town": "Conflux",
     "Level": 2,
     "Attack": 9,
@@ -2125,6 +2241,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Water Elemental",
+    "img_src":"/unit_images/Creature_Water_Elemental.gif",
     "Town": "Conflux",
     "Level": 3,
     "Attack": 8,
@@ -2143,6 +2260,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Ice Elemental",
+    "img_src":"/unit_images/Creature_Ice_Elemental.gif",
     "Town": "Conflux",
     "Level": 3,
     "Attack": 8,
@@ -2161,6 +2279,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Fire Elemental",
+    "img_src":"/unit_images/Creature_Fire_Elemental.gif",
     "Town": "Conflux",
     "Level": 4,
     "Attack": 10,
@@ -2179,6 +2298,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Energy Elemental",
+    "img_src":"/unit_images/Creature_Energy_Elemental.gif",
     "Town": "Conflux",
     "Level": 4,
     "Attack": 12,
@@ -2197,6 +2317,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Earth Elemental",
+    "img_src":"/unit_images/Creature_Earth_Elemental.gif",
     "Town": "Conflux",
     "Level": 5,
     "Attack": 10,
@@ -2215,6 +2336,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Magma Elemental",
+    "img_src":"/unit_images/Creature_Magma_Elemental.gif",
     "Town": "Conflux",
     "Level": 5,
     "Attack": 11,
@@ -2233,6 +2355,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Psychic Elemental",
+    "img_src":"/unit_images/Creature_Psychic_Elemental.gif",
     "Town": "Conflux",
     "Level": 6,
     "Attack": 15,
@@ -2251,6 +2374,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Magic Elemental",
+    "img_src":"/unit_images/Creature_Magic_Elemental.gif",
     "Town": "Conflux",
     "Level": 6,
     "Attack": 15,
@@ -2269,6 +2393,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Firebird",
+    "img_src":"/unit_images/Creature_Firebird.gif",
     "Town": "Conflux",
     "Level": 7,
     "Attack": 18,
@@ -2287,6 +2412,7 @@ export const CastleUnits =[
   },
   {
     "Name": "Phoenix",
+    "img_src":"/unit_images/Creature_Phoenix.gif",
     "Town": "Conflux",
     "Level": 7,
     "Attack": 21,
