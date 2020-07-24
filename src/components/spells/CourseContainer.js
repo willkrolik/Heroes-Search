@@ -20,9 +20,9 @@ const CourseContainer = (props) => {
   }); 
   return (
     <div>
-      <ul>
+    
         {spells}    
-      </ul>
+     
     </div>
   );
 }

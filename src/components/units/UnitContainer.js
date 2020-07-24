@@ -3,6 +3,7 @@ import Unit from './Unit';
 
 const UnitContainer = (props) => {
     let units = props.data.map((unit) => {
+      
         return <Unit Name={unit.Name}
             Town={unit.Town}
             Level={unit.Level}
@@ -24,9 +25,9 @@ const UnitContainer = (props) => {
     });
     return (
         <div>
-            <ul>
+            
                 {units}
-            </ul>
+            
         </div>
     );
 }

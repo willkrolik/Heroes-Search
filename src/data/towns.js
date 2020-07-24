@@ -1,4 +1,4 @@
-const TeacherList = [
+const TownList = [
   {
     name: "Castle",
     bio: "Castle is a good alignment town with the knight and cleric hero classes. Castle armies are primarily composed of human men-at-arms, though these towns have also formed an alliance with the griffins and are under the protection of angels. Castle represents Erathia.Castle's native terrain is grass.",
@@ -55,4 +55,4 @@ const TeacherList = [
   }
 ];
 
-export default TeacherList;
+export default TownList;

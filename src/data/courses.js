@@ -9,9 +9,13 @@ export const level1 =[
     "Basic": "Target, allied troop receives a +3 attack rating bonus for hand-to-hand attacks.",
     "Advanced": "Target, allied troop receives a +6 attack rating bonus for hand-to-hand attacks.",
     "Expert": "All allied troops receive a +6 attack rating bonus for hand-to-hand attacks.",
-    "Cost": [5,4],
+    "Cost": "5,4",
     "Duration":"1 rnd/sp",
-    "Probability": ["Castle:0","Rampart:0","Tower:","Inferno:","Necropolis:", "Dungeon:", "Stronghold:", "Fortress:", "Conflux:"]
+    "Probability": ["Castle:0",
+    "Rampart:0",
+    "Tower:0","Inferno:0",
+    "Necropolis:0",
+     "Dungeon:", "Stronghold:", "Fortress:", "Conflux:"]
   },
   {
     "Name": "Cure ",
@@ -713,10 +717,7 @@ export const level4 = [
     "Basic Effect": "Target attacks nearest troop. 1 hex affected.",
     "Advanced Effect": "Target attacks nearest troop. All creatures in a 2 hex radius affected.",
     "Expert Effect": "Target attacks nearest troop. All creatures in a 3 hex radius affected.",
-    "Cost": [
-      20,
-      16
-    ],
+    "Cost":  " 20/16",
     "Duration": "1 attack",
     "Probability of occurrence (%):": "[Castle:10,Rampart:10,Tower:[16,10],Inferno:10,Necropolis:20, Dungeon:10, Stronghold:0, Fortress:0, Conflux:10]"
   },

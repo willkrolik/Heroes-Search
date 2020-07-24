@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background: #5fcf80;
+  background-image: url(/images/burned-grunge-paper-background.jpg);
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -90,14 +90,88 @@ header {
   display: table;
   clear: both;
 }
+
+/* New Code 5/14 -------- */
 .course {
   margin-bottom: 1em;
+  border: 1px solid #666;
+  padding: 10px;
+}
+
+.course p {
+  word-break: break-all;
+}
+
+.course header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.course header h3, 
+.course header div {
+  flex-basis: 50%;
+}
+
+.course header div {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.course header p {
+  margin: 0;
+  padding: 0;
+  order: 3;
+  flex-basis: 100%;
+}
+
+div.Magic,
+div.All.Schools {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 0;
+}
+
+div.Magic p,
+div.All.Schools p {
+  margin: 0;
+  padding: 0;
+  
+}
+
+div.Fire.Magic {
+  background: red;
+  color: white;
+}
+
+div.Air.Magic {
+  background: grey;
+  color: black;
+}
+
+div.Water.Magic {
+  background: blue;
+  color: white;
+}
+
+div.Earth.Magic {
+  background: brown;
+  color: white;
+}
+
+div.All.Schools {
+  background: black;
+  color: white;
 }
 
 /* IMAGES -------- */
 
 .course-img {
-  width: 70px;
+  width: 100px;
+  height: 200px;
 }
 .teacher-img {
   width: 100%;
@@ -301,6 +375,10 @@ header {
     width: 85.1%;
     margin-left: 1.5em;
   } 
+  .media {
+    display: flex;
+   height:auto;
+  }
   .teacher {
     width: 48.73%;
     margin-bottom: 1.5em;
@@ -334,8 +412,25 @@ header {
   .course-nav {
     float: right;
     display: flex;
+    margin: 0 0 10px 0
   } 
   .courses h2 {
     float: left;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
 }
